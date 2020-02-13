@@ -21,13 +21,13 @@ jobs:
         paths:
         - ./node_modules
     - run:
-        name: test:unit
+        name: Launching unit test
         command: npm run test:unit
     - run:
-        name: build
+        name: Launching build
         command: npm run build
     - run:
-        name: lint
+        name: Launching linter
         command: npm run lint
 
 workflows:
